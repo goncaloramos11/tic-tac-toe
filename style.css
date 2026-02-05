@@ -28,7 +28,9 @@
     padding: 20px;
 }
 
-.turn-player{
+.display-stats{
+    display: flex;
+    justify-content: space-around;
     padding:40px;
     color: var(--font-color);
     font-weight: 700;
@@ -45,6 +47,12 @@
 }
 
 .square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 100px;
+    font-family: var(--font);
     height: 150px;
     width: 150px;
     background-color: white;
